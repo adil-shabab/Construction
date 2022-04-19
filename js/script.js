@@ -7,6 +7,11 @@ infoSection = document.querySelector('.info-section')
 
 
 
+// menu bar js 
+
+// menu bar js 
+
+
 // search js 
 function showSearchBox(){
     searchForm.classList.toggle("active")

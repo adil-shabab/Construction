@@ -32,14 +32,20 @@ a{
 .nav-link.active{
     color: rgb(255, 98, 0) !important;
 }
-.navbar ul li i{
+.nav-icon i{
     padding: 8px;
     border-radius: 50%;
     background: white;
-    margin: 8px;
+    margin: 8px 5px;
     cursor: pointer;
 }
-.navbar ul li i:hover{
+.nav-icon{
+    position: absolute;
+    top: 8px;
+    left: 50%;
+}
+
+.nav-icon:hover{
     color: white;
     background: rgb(255, 98, 0);
 }
