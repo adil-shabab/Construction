@@ -45,3 +45,5 @@ function closeInfo(){
 }
 closeBtn.addEventListener("click", closeInfo)
 // close info 
+
+
