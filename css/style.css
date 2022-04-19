@@ -96,5 +96,36 @@ a{
 
 
 /* info section in navbar  */
-
+.info-section{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 75px;
+}
+.info-content-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-content-section i{
+    margin-bottom: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.info-content-section i:hover{
+    background: rgb(255, 98, 0);
+    color: white;
+}
+.phone,.mail,.location,.follow{
+    margin-top: 10px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+}
+.follow{
+    margin-bottom: 30px;
+}
+.phone{
+    margin-top: 30px;
+}
 /* info section in navbar  */
