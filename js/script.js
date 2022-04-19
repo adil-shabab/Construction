@@ -4,6 +4,7 @@ searchForm = document.querySelector('.search-form')
 infoBtn = document.querySelector('.info')
 infoSection = document.querySelector('.info-section')
 navBar = document.querySelector('.navbar-nav')
+closeBtn = document.querySelector('.close')
 
 
 
@@ -36,3 +37,11 @@ function showInfo(){
 }
 infoBtn.addEventListener('click', showInfo)
 // info js 
+
+
+// close info 
+function closeInfo(){
+    infoSection.classList.remove("active")
+}
+closeBtn.addEventListener("click", closeInfo)
+// close info 

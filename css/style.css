@@ -13,7 +13,7 @@ a{
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -71,6 +71,7 @@ a{
 }
 .bar{
     padding: 8px !important;
+    margin-top: 8px;
     border-radius: 10px !important;
     display: none;
     cursor: pointer;
@@ -88,7 +89,20 @@ a{
         display: none ;
     }
 }
-
+@media (max-width: 450px){
+    .nav-icon{
+        position: absolute;
+        top: 8px;
+        left: 40%;
+    }
+}
+@media (max-width: 3300px){
+    .nav-icon{
+        position: absolute;
+        top: 8px;
+        left: 38%;
+    }
+}
 
 /* search input in navbar  */
 .search-form.active{
@@ -141,6 +155,7 @@ a{
 
 /* info section in navbar  */
 .info-section{
+    padding-top: 10px;
     position: absolute;
     right: 10px;
     top: 75px;
@@ -179,7 +194,13 @@ a{
     margin-bottom: 30px;
 }
 .phone{
-    margin-top: 30px;
+    margin-top: 35px;
+}
+.close{
+    color: balck !important;
+}
+.close:hover{
+    color: rgb(255, 98, 0);
 }
 @media (max-width:991px){
     .info-section.active{
