@@ -41,6 +41,7 @@ a{
     font-size: 19px;
     font-weight: 600;
     color: black !important;
+    transition: 0.4s ease;
 }
 .nav-link:hover{
     color: rgb(255, 98, 0) !important;
@@ -65,11 +66,15 @@ a{
     color: white;
     background: rgb(255, 98, 0);
 }
+.nav-icon i{
+    transition: 0.4s linear;
+}
 .bar{
     padding: 8px !important;
     border-radius: 10px !important;
     display: none;
     cursor: pointer;
+    transition: 0.4s ease;
 }
 .bar:hover{
     background: rgb(255, 98, 0);
