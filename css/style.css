@@ -30,6 +30,20 @@ section{
     width: 100%;
     height: 100vh;
 }
+.title::after{
+    content: "";
+    width: 100px;
+    background-color: rgb(255, 98, 0);
+    height: 2px;
+    position: absolute;
+    top: 100px;
+    left: 46%;
+}
+@media (max-width: 480px){
+    .title::after{
+        left: 37%;
+    }
+}
 
 /* navbar  */
 .navbar-nav.active li a{
@@ -237,6 +251,7 @@ section{
     background: url(/images/home-slide-2.jpg);
     background-size: cover;
     background-position: center;
+    height: 90vh;
 }
 .home-content{
     position: absolute;
@@ -256,5 +271,20 @@ section{
 
 
 /* about section starts */
+.about{
+    position: relative;
+}
+.about h1{
+    color: black;
+}
+.about span{
+    color: rgb(255, 98, 0);
+}
 
+.about video{
+    width: 100%;
+}
+.about .text{
+    text-align: justify;
+}
 /* about section ends */
