@@ -18,6 +18,22 @@ a{
 
 
 /* navbar  */
+.navbar-nav.active li a{
+    display: block !important;
+}
+.navbar-nav.active{
+    position: absolute;
+    margin:0 auto;
+    align-items: center;
+    left: 10px;
+    width: 96%;
+    top: 70px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+    transform: translateY(0);
+}
 .navbar-brand{
     font-size: 22px;
 }
@@ -45,7 +61,7 @@ a{
     left: 50%;
 }
 
-.nav-icon:hover{
+.nav-icon i:hover{
     color: white;
     background: rgb(255, 98, 0);
 }
@@ -53,13 +69,15 @@ a{
     padding: 8px !important;
     border-radius: 10px !important;
     display: none;
+    cursor: pointer;
+}
+.bar:hover{
+    background: rgb(255, 98, 0);
+    color: white;
 }
 @media (max-width: 991px){
     .bar{
         display: block ;
-    }
-    .navbar ul li i{
-        margin: 0 8px;
     }
     .navbar-nav li a{
         display: none ;
@@ -95,8 +113,22 @@ a{
 .search-input{
     border-radius: 10px;
     border: 0.2px solid black;
-    width: 250px;
-    height: 30px;
+}
+@media (max-width:654px){
+    .search-form,
+    .search-form.active{
+        position: absolute;
+        top: 80px;
+        left: 25%;
+    }
+}
+@media (max-width:459px){
+    .search-form,
+    .search-form.active{
+        position: absolute;
+        top: 80px;
+        left: 10%;
+    }
 }
 /* search input in navbar  */
 
@@ -104,15 +136,14 @@ a{
 
 /* info section in navbar  */
 .info-section{
-    width: 20%;
     position: absolute;
     right: 10px;
     top: 75px;
-    transform: translateX(600px);
+    transform: translateX(-1600px);
     transition: 0.4s linear;
 }
 .info-section.active{
-    width: 20%;
+    width: 25%;
     position: absolute;
     right: 10px;
     top: 75px;
@@ -145,4 +176,15 @@ a{
 .phone{
     margin-top: 30px;
 }
+@media (max-width:991px){
+    .info-section.active{
+        width: 50%;
+    }
+}
+@media (max-width:400px){
+    .info-section.active{
+        width: 80%;
+    }
+}
+
 /* info section in navbar  */
