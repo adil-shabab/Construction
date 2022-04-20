@@ -61,6 +61,7 @@ a{
     flex-direction: column;
     transition: 0.5s ease;
     transform: translateY(0);
+    background-color: white;
 }
 .navbar-brand{
     font-size: 22px;
@@ -189,6 +190,7 @@ a{
     top: 75px;
     transform: translateX(-1600px);
     transition: 0.4s linear;
+    background-color: white;
 }
 .info-section.active{
     width: 25%;
@@ -312,3 +314,38 @@ a{
     font-size: 20px;
 }
 /* services section ends  */
+
+
+/* project section starts  */
+.projects{
+    position: relative;
+}
+.projects .card{
+    position: relative;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.projects .card:hover{
+    transform: scale(1.2);
+
+}
+.projects .content{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background: white;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+.projects .plus{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+.image-div{
+    overflow: hidden !important;
+}
+
+/* project section ends  */
