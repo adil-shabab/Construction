@@ -6,7 +6,12 @@ infoSection = document.querySelector('.info-section')
 navBar = document.querySelector('.navbar-nav')
 closeBtn = document.querySelector('.close')
 
-
+console.log(searchBtn)
+console.log(searchForm)
+console.log(infoBtn)
+console.log(infoSection)
+console.log(navBar)
+console.log(closeBtn)
 
 
 // menu bar js 

@@ -10,10 +10,12 @@ a{
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
 }
 .header{
-    position: relative;
     width: 100%;
     height: 100vh;
     /* overflow-x: hidden; */
+}
+body{
+    position: relative;
 }
 .btn{
     background-color: black;
@@ -140,6 +142,9 @@ a{
     left: 50%;
     transform: translateY(0);
     transition: 0.5s ease;
+    position: fixed;
+    z-index: 10;
+    background: white;
 }
 .search-form{
     transform: translateY(-200px);
@@ -190,6 +195,7 @@ a{
     top: 75px;
     transform: translateX(-1600px);
     transition: 0.4s linear;
+    border: 2px solid black;
     background-color: white;
 }
 .info-section.active{
@@ -199,7 +205,16 @@ a{
     top: 75px;
     transform: translateX(0);
     transition: 0.4s linear;
+    position: fixed;
+    z-index: 10;
 }
+.info-section .mail,
+.info-section .phone,
+.info-section .location,
+.info-section .follow{
+    background: white;
+}
+
 .info-content-section{
     display: flex;
     flex-direction: column;
@@ -349,3 +364,16 @@ a{
 }
 
 /* project section ends  */
+
+
+
+/* contact section starts  */
+.contact{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.contact .message{
+    height: 80px !important;
+}
+/* contact section ends  */
