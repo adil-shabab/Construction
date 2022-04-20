@@ -370,10 +370,38 @@ body{
 /* contact section starts  */
 .contact{
     position: relative;
-    width: 100%;
-    height: 100vh;
+    padding-bottom: 70px;
 }
 .contact .message{
     height: 80px !important;
 }
 /* contact section ends  */
+
+
+
+/* footer section starts  */
+.footer{
+    background-color: rgb(177, 177, 177);
+}
+.footer-nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-nav ul li a:hover{
+    color: rgb(255, 98, 0);
+}
+.social-media-icons i{
+background: black;
+color: white;
+border-radius: 50%;
+padding: 10px;
+}
+.social-media-icons i:hover{
+    background: rgb(255, 98, 0);
+    color: white;
+}
+/* footer section ends  */
