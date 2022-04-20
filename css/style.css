@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
 }
@@ -269,10 +272,11 @@ body{
     background-size: cover;
     background-position: center;
     height: 90vh;
+    position: relative;
 }
 .home-content{
     position: absolute;
-    top: 30%;
+    top: 13rem;
     width: 55%;
 }
 .home-content h3{
@@ -282,7 +286,11 @@ body{
 .home-content p{
     text-align: justify;
 }
-
+@media (max-width: 550px){
+    .home-content h3{
+        font-size: 1.3rem;
+    }
+}
 /* hero section ends */
 
 
