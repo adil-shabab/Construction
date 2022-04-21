@@ -56,11 +56,11 @@ closeBtn.addEventListener("click", closeInfo)
 // typed js 
 var typed = new Typed('.animate', {
     strings: [
-                "Your Favourite Dishes",
-                "In Your Door Step",
-                "Order Now From Our Shop",
-                "Enjoy Your Food"
-
+                "Dream and Build",
+                "Creative and Proffessional",
+                "We Build Your Dream",
+                "Design Beyond Expectation",
+                "From Start To Finish"
             ],
             typeSpeed: 50,
             backSpeed: 50,
