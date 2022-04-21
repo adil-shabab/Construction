@@ -52,3 +52,20 @@ closeBtn.addEventListener("click", closeInfo)
 // close info 
 
 
+
+// typed js 
+var typed = new Typed('.animate', {
+    strings: [
+                "Your Favourite Dishes",
+                "In Your Door Step",
+                "Order Now From Our Shop",
+                "Enjoy Your Food"
+
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+});
+// typed js 
+
+
